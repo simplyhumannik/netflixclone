@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+body{
+    background-color: black;
+    color: #ffffff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix.main.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 25px 30px;
+
+}
+
+.logo{
+    height: 40px;
+    width: 150px;
+}
+
+.nav-ls{
+    margin-right: 50px;
+    padding-left: 60%;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    height: 32px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    height: 32px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.header-content{
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 160px;
+    padding-bottom: 65px;
+}
+
+h1{
+    width: 900px;
+    height: 130px;
+    font-size: 3rem;
+    font-weight: 900; 
+}
+
+p{
+    width: 900px;
+    height: 32px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+h3{
+    width: 840px;
+    height: 30px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 0px 30px;
+}
+
+.enteremail{
+    height: 55px;
+    width: 375px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.getstarted{
+    height: 58.6px;
+    width: 205px;
+    font-size: 20px;
+}
+
+.main1{
+    background-color: black;
+    height: 480px;
+    width: 100%;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 50%;
+    height: 170px;
+    padding-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box1 p{
+    width: 520px;
+    height: 65px;
+    margin-top: 16px;
+}
+
+.box1img img{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+
+.main3{
+    background-color: black;
+    height: 480px;
+    width: 100%;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    width: 50%;
+    height: 170px;
+    padding-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+.box3 p{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+
+.box3img img{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+
+.main2{
+    background-color: black;
+    height: 480px;
+    width: 100%;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2img img{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+
+.box2{
+    width: 50%;
+    height: 170px;
+    padding-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box2 p{
+    width: 520px;
+    height: 65px;
+    margin-top: 16px;
+}
+
+.main4{
+    background-color: black;
+    height: 480px;
+    width: 100%;
+    padding: 75px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4img img{
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+}
+
+.box4{
+    width: 50%;
+    height: 170px;
+    padding-right: 5px;
+    display: block;
+    text-align: left;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.box4 p{
+    width: 520px;
+    height: 65px;
+    margin-top: 16px;
+}
+
+.belowmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.belowheading{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.button{
+    height: 84px;
+    width: 95%;
+    padding: 24px;
+    text-align: left;
+    background-color: rgba(50, 47, 47, 0.923);
+    border-radius: 0%;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+footer{
+    height: 150px;
+    margin: 72px 0px;
+    padding: 0px 32px;
+}
+
+.foot2{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+ul a{
+    display: block;
+    margin-top: 16px;
+}
